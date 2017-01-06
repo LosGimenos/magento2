@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba315e7865239358fa89dd9df31ed2d5",
+    "content-hash": "8f6916edcf19eb7234221e5be19dd658",
     "packages": [
+        {
+            "name": "arvatoscm/dockerize-magento2",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arvatoSCM/dockerize-magento2.git",
+                "reference": "e47944013b794953be319efbbc3f510ee417a0b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arvatoSCM/dockerize-magento2/zipball/e47944013b794953be319efbbc3f510ee417a0b4",
+                "reference": "e47944013b794953be319efbbc3f510ee417a0b4",
+                "shasum": ""
+            },
+            "type": "magento2-component",
+            "extra": {
+                "map": [
+                    [
+                        "docker-compose.yml",
+                        "docker-compose.yml"
+                    ],
+                    [
+                        "config",
+                        "config"
+                    ],
+                    [
+                        "bin/console",
+                        "bin/console"
+                    ]
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Koch",
+                    "email": "andy@ak7.io",
+                    "homepage": "https://github.com/andreaskoch",
+                    "role": "Author"
+                }
+            ],
+            "description": "Docker infrastructure definitions for Magento 2",
+            "homepage": "https://github.com/arvatoSCM/dockerize-magento2",
+            "time": "2016-11-24T14:57:55+00:00"
+        },
         {
             "name": "braintree/braintree_php",
             "version": "3.7.0",
